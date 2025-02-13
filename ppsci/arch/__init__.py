@@ -59,6 +59,8 @@ from ppsci.arch.velocitygan import VelocityDiscriminator  # isort:skip
 from ppsci.arch.velocitygan import VelocityGenerator  # isort:skip
 from ppsci.arch.moflow_net import MoFlowNet, MoFlowProp  # isort:skip
 from ppsci.utils import logger  # isort:skip
+from ppsci.arch.regdgcnn import RegDGCNN  # isort:skip
+from ppsci.arch.ifm_mlp import IFMMLP  # isort:skip
 
 __all__ = [
     "MoFlowNet",
@@ -107,6 +109,8 @@ __all__ = [
     "USCNN",
     "VelocityDiscriminator",
     "VelocityGenerator",
+    "RegDGCNN",
+    "IFMMLP",
 ]
 
 
